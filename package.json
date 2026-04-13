@@ -1,0 +1,53 @@
+{
+  "name": "ezdown",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js",
+    "app": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "electron-store": "^8.1.0",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "electron": "^41.2.0",
+    "electron-builder": "^26.8.1",
+    "sharp": "^0.34.5"
+  },
+  "build": {
+    "appId": "com.ezdown.app",
+    "productName": "EZDown",
+    "copyright": "Copyright © 2026 EZDown",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "res/icons/icon.png"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false,
+      "runAfterFinish": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "extraResources": [
+      "extension/**/*",
+      "res/**/*",
+      "yt-dlp.exe",
+      "ffmpeg.exe",
+      "supportedsites.md"
+    ]
+  }
+}
