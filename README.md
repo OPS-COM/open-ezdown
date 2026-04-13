@@ -110,9 +110,8 @@ Feel free to open issues if you notice a bug, or have a stellar feature request.
 EZDown is built and maintained during our free time. If you enjoy using EZDown and it has saved you time downloading media, please consider supporting the project! 
 Your donations help keep the development active, add new features, and ensure regular updates.
 
-**☕ [Buy me a Coffee](https://buymeacoffee.com/yourusername)**
-**💳 [Donate via PayPal](https://paypal.me/yourusername)**
-**🪙 Crypto Wallet (BTC):** `your-bitcoin-wallet-address`
+**☕ [Buy me a Coffee](https://ko-fi.com/opscom)**
+**🪙 Crypto Wallet (BTC):** [Binance](https://app.binance.com/uni-qr/53UCq9d3)
 
 Thank you for your support, and happy downloading! 🎉
 #
