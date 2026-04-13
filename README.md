@@ -40,7 +40,7 @@ If you want to run the application in a development environment, follow these st
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/EZDown.git
+   git clone https://github.com/ops-com/open-EZDown.git
    cd EZDown
    ```
 
